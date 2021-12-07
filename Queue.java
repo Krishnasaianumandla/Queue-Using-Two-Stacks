@@ -43,14 +43,14 @@ class Queue {
     // Time complexity: O(N)
     //Memory complexity:o(1)
     public boolean empty() {
-        return (stack1.isEmpty() && stack2.isEmpty()) ? (true): (false);
+        return (stack1.isEmpty() && stack2.isEmpty());
     }
 
     // Return the number of elements in queue.
     // Time complexity: O(N)
     //Memory complexity:o(1)
-    public boolean size() {
-        return(stack1.size()+stack2.size()>0)? (true):(false);
+    public int size() {
+        return(stack1.size()+stack2.size());
     }
     
     public static void main(String[] args) {
